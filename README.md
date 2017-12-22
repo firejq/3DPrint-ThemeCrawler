@@ -3,6 +3,7 @@
   - [URLs Queue](#urls-queue)
   - [Initial Seeds](#initial-seeds)
   - [URL Handler](#url-handler)
+  - [config.ini](#configini)
   - [TODO](#todo)
   - [Refer Links](#refer-links)
   - [Lisence](#lisence)
