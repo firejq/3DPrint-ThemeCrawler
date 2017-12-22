@@ -91,6 +91,19 @@ Handler 默认以多进程 & 多线程运行。
 
 Data Analyzer 用于从保存的 TXT 文件中分析数据，统计词频，得到结果，以柱状图呈现。 -->
 
+## config.ini
+
+- `[redis]`: 定义 redis 连接的相关配置。 
+    
+    默认值：
+    ```
+    host=localhost
+    port=6379
+    db=0
+    ```
+ 
+- `[theme-relevance]`: 定义主题相关性的阈值（0 < threshold < 1）。默认值为 0.3。
+
 ## TODO
 
 - 在待访问 URL 队列中，使用 PageRank 进行优先级排序，并且在 Redis 中用 zset 存储而不是 set
@@ -104,4 +117,4 @@ http://www.ruanyifeng.com/blog/2013/03/cosine_similarity.html
 
 ## Lisence
 
-The 3DPrint Theme Crawler is under the MIT Lisence.
+The 3DPrint Theme Crawler is under the [MIT](https://github.com/firejq/3DPrint-ThemeCrawler/blob/master/LICENSE) Lisence.
